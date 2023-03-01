@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <style>
+      .outer-cont{
+        background: linear-gradient(pink,rgb(66, 66, 209),purple);
+        /* height: 200vh; */
+        padding: 10rem;
+      }
+      .items{
+        height: 70em;
+      }
+      .text{
+        background-color: #050262;
+        /* border-radius: 4px; */
+        /* height: 50%; */
+      }
+      .OPTIONS{
+        border: none;
+        background: none;
+        /* transform: translateY(1px); */
+      }
+      .form{
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom:solid 2px ;
+        background: none;
+      }
+      .image{
+        /* border-radius: 4px; */
+        height: 100%;
+      }
+      .IMAGE{
+        padding-left: 0rem;
+        padding-right: 0rem;
+      }
+      .FAQ{
+        background-color: #050262;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="outer-cont">
+      <div class="container-fluid items d-flex  justify-content-center ">
+        <div class="row position-absolute container  all ">
+          <div class=" col-lg-4 col-12  text rounded">
+            <div class="row">
+                <div class="col-12  mb-4 "><h1 class="text-light display-5">SUN BURN</h1></div>
+            </div>
+            <div class="row">
+                <div><h3 class=" col-12 text-danger d-flex justify-content-center mb-3">Set The Event</h3></div>
+            </div>
+            <div class="row">
+                <div class="col-4 text-light mb-3">Price </div> 
+                <div class="col-8 text-light mb-3"> 1000 &#x20B9;</div>
+            </div>
+            <div class="row">
+                <div class="col-4 text-light mb-3">People </div> 
+                <div class="col-8">
+                  <select name="" id="option" class="OPTIONS form-select form-range text-light mb-3">
+                    <option selected>Select persons</option>
+                    <option value="1" class="no text-light bg-black">1</option>
+                    <option value="2" class="no text-light bg-black">2</option>
+                    <option value="3" class="no text-light bg-black">3</option>
+                    <option value="4" class="no text-light bg-black">4</option>
+                    <option value="5" class="no text-light bg-black">5</option>
+                    <option value="6" class="no text-light bg-black">6</option>
+                  </select>                 
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4 text-light mb-3">Name</div>
+                <div class=" col-8 mb-3 input-group-text bg-transparent border-0 was-validated">
+                  <input type="text" name="" id="name" class="form form-range form-control bg-transparent text-light" placeholder="First Name" required>
+                  <input type="text" name="" id="name" class="form form-range form-control bg-transparent text-light" placeholder="Last Name" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4 text-light mb-3">Mail</div>
+                <div class="col-8  mb-3 was-validated">
+                  <input type="email" name="" id="mail" class="form form-range form-control bg-transparent text-light" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4 text-light mb-3">Phone</div>
+                <div class="col-8   text-light mb-3 was-validated">
+                  <input type="tel" name="" id="phone" class="form form-range form-control bg-transparent text-light" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4 text-light mb-5">Comment</div>
+                <div class="col-8 text-light">
+                  <textarea name="" id="txt" cols="30" rows="3" class="form form-range form-control bg-transparent text-light mb-5"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4 text-light  mb-3 text-center"><input type="checkbox" name="" class="form-check-input "> I agree</div>
+                <div class="col-8 text-light">
+                <button type="button" class="buton btn btn-danger mb-3" role="button">Confirm Booking</button>
+                </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-12 IMAGE ">
+              <img src="https://imgmedia.lbb.in/media/2019/01/5c45983d2d907214c2f05d68_1548064829592.jpg" alt="" class="image rounded img-fluid col-12">
+          </div>
+          <div class="col-12 col-lg-4 accordion FAQ rounded">
+            <h4 class=" text-light">FAQ section</h1>
+              <div class="accordion-item bg-transparent text-danger mt-4">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button bg-transparent text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    How long does Sunburn last? 
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>Last Weekend/3 Days Of The Year</strong> <br>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item bg-transparent text-danger">
+                <h2 class="accordion-header" id="headingtwo">
+                  <button class="accordion-button bg-transparent text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetwo" aria-expanded="true" aria-controls="collapsetwo">
+                    What is Location of Sunburn? 
+                  </button>
+                </h2>
+                <div id="collapsetwo" class="accordion-collapse collapse " aria-labelledby="headingtwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>Vagator, Goa (2007–2015) Pune, Maharashtra (2016–2018) Vagator, Goa (2019–Present)</strong>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item bg-transparent text-danger">
+                <h2 class="accordion-header" id="headingthree">
+                  <button class="accordion-button bg-transparent text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapsethree" aria-expanded="true" aria-controls="collapsethree">
+                    What should I wear in Sunburn festival in Goa? 
+                  </button>
+                </h2>
+                <div id="collapsethree" class="accordion-collapse collapse " aria-labelledby="headingthree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>Carry mild and cosy garments as Goa is not so cold in December.</strong>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item bg-transparent text-danger">
+                <h2 class="accordion-header" id="headingfour">
+                  <button class="accordion-button bg-transparent text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="true" aria-controls="collapsefour">
+                    Is alcohol free in Sunburn?
+                  </button>
+                </h2>
+                <div id="collapsefour" class="accordion-collapse collapse " aria-labelledby="headingfour" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>No. It is not free.</strong><br><strong>You will not be provided any free food or alcohol against these tickets.</strong>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item bg-transparent text-danger">
+                <h2 class="accordion-header" id="headingfive">
+                  <button class="accordion-button bg-transparent text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="true" aria-controls="collapsefive">
+                    Is there an age limit for Sunburn?
+                  </button>
+                </h2>
+                <div id="collapsefive" class="accordion-collapse collapse " aria-labelledby="headingfive" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>Minimum age to get in Sunburn is 18.....</strong>
+                  </div>
+                </div>
+              </div>
+              <div class="text-warning text-end mt-5">sunburn.com</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+    
+  </body> 
+</html>
